@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    width: 1342px;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul  {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 560;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.section-birinchi {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+
+.ism {
+    width: 70%;
+    height: 385px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.ism h1 {
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 15px;
+}
+
+.ism p {
+    width: 550px;
+    height: 65px;
+    font-weight: 549;
+    font-size: 17px;
+    line-height: 24px;
+    color: #21243D;
+    text-align: justify;
+}
+
+
+
+button {
+
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    border: none;
+    margin-top: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.rasm-qismi {
+    width: 30%;
+    height: 60vh;
+}
+
+.rasm-qismi img {
+    margin-top: 150px;
+}
+
+
+
+
+.section-ikkinchi {
+    background-color: #EDF7FA;
+    width: 100%;
+    height: 385px;
+}
+
+
+.section-ikkinchi .birinchi {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+.section-ikkinchi .birinchi .chap {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom: 15px;
+}
+
+
+.section-ikkinchi .birinchi .ung {
+    color: #00A8CC;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+
+}
+
+.section-ikkinchi .post-qismi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-ikkinchi .post-qismi .post1 {
+    width: 418px;
+    height: 267px;
+    background-color: #FFFFFF;
+    margin-left: 130px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section-ikkinchi .post-qismi .post2 {
+    width: 418px;
+    height: 267px;
+    background-color: #FFFFFF;
+    margin-right: 130px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section-ikkinchi .post-qismi .post1 h3 {
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.section-ikkinchi .post-qismi .post2 h3 {
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.section-ikkinchi .post-qismi .post1 .sana1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 26px;
+    color: #21243D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.section-ikkinchi .post-qismi .post1 .sana1:nth-child(2) {
+    margin-right: 60px;
+}
+
+
+.section-ikkinchi .post-qismi .post1 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243D;
+    text-align: justify;
+}
+
+
+.section-ikkinchi .post-qismi .post2 .sana2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 26px;
+    color: #21243D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.section-ikkinchi .post-qismi .post2 .sana2:nth-child(2) {
+    margin-right: 60px;
+}
+
+
+.section-ikkinchi .post-qismi .post2 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243D;
+    text-align: justify;
+}
+
+.section-uchinchi {
+    width: 100%;
+    height: 820px;
+}
+
+
+.section-uchinchi .Featured-works {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-left: 189px;
+}
+
+
+.section-uchinchi .ishlagan-joylar {
+    display: flex;
+    margin-left: 189px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.section-uchinchi .ishlagan-joylar .ishlagan {
+    margin-left: 50px;
+}
+
+.section-uchinchi .ishlagan-joylar .ishlagan h2 {
+    font-size: 30px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+
+.section-uchinchi .ishlagan-joylar .ishlagan .ichidagi {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section-uchinchi .ishlagan-joylar .ishlagan .ichidagi .yil {
+    width: 50px;
+    height: 26px;
+    padding-left: 4px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    background-color: #21243D;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.section-uchinchi .ishlagan-joylar .ishlagan .ichidagi .Dashboard {
+    font-size: 20px;
+    color: #8695A4;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.section-uchinchi .ishlagan-joylar .ishlagan p {
+    width: 550px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #21243D;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    margin-top: 100px;
+}
+
+footer .linklar {
+    margin-left: 600px;
+}
+
+footer .linklar img {
+    width: 26px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    }
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    /* section-birinchi */
+
+    .section-birinchi {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    
+    
+    .ism {
+        width: 100%;
+        height: 100vh;
+
+    }
+    
+    .ism h1 {
+        width: 100%;
+        text-align: center;
+        margin-left: -84px;
+
+    }
+    
+    .ism p {
+        width: 100%;
+        margin-bottom: 65px;
+        text-align: center;
+        margin-left: -75px;
+    }
+ 
+    button {
+        margin-left: -55px;
+    }
+    
+    .rasm-qismi {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .rasm-qismi img {
+        margin: 40px 66px;
+    }
+
+    /* section-birinchi tugadi */
+
+
+    /* section-ikkinchi */
+
+    .section-ikkinchi {
+        background-color: #EDF7FA;
+        width: 100%;
+        height: auto;
+    }
+      
+    .section-ikkinchi .birinchi {
+        display: flex;
+        justify-content: space-around;    
+    }
+    
+    .section-ikkinchi .birinchi .chap {
+ 
+        margin-right: 60px;
+    }
+    
+    
+    .section-ikkinchi .post-qismi {
+        width: 90%;
+        height: 120vh;
+        display: inline-block;
+
+    }
+    
+    .section-ikkinchi .post-qismi .post1 {
+        width: 100%;
+        height: auto;
+        margin:15px 6%;
+    }
+    
+    .section-ikkinchi .post-qismi .post2 {
+        width: 100%;
+        height: auto;
+        margin:15px 6%;
+
+    }
+
+    .section-ikkinchi .post-qismi .post1 .sana1 .sana2 {
+        margin: 10px 0;
+    
+    }
+    
+    .section-ikkinchi .post-qismi .post1 .sana1:nth-child(2) {
+        margin-right: 20px;
+    }
+    
+    .section-ikkinchi .post-qismi .post2 .sana2:nth-child(2) {
+        margin-right: 15px;
+    }
+
+    /* section-ikkinchi tugadi  */
+
+
+
+    /* section-uchinchi */
+
+    .section-uchinchi {
+        width: 100%;
+        height: 200vh;
+    }
+    
+    
+    .section-uchinchi .Featured-works {
+        margin-left: 110px;
+    }
+    
+    
+    .section-uchinchi .ishlagan-joylar {
+        width: 100%;
+        height: auto;
+        display: inline;
+
+    
+    }
+
+    .section-uchinchi .ishlagan-joylar img {
+        width: 85%;
+        height: 40vh;
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan {
+        width: 100%;
+        height: 35vh;
+        margin: 10px 0px 50px 20px;
+    }
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+        margin-left: 6px;
+    }
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan .ichidagi {
+        display: flex;
+        margin: 0 5px ;
+    }
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan .ichidagi .yil {
+        width: 57px;
+        height: 26px;
+    }
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan .ichidagi .Dashboard {
+        margin-left: 40px;
+    }
+    
+    
+    .section-uchinchi .ishlagan-joylar .ishlagan p {
+        width: 85%;
+        margin: 5px;
+ 
+    }
+
+    /* section-uchinchi */
+
+
+
+    footer {
+        width: 100%;
+        height: 52vh;
+        margin-top: 500px;
+    }
+    
+    footer .linklar {
+        display: flex;
+        margin-left: 120px;
+
+    }
+    
+    footer .linklar img {
+        width: 25px;
+        height: 26px;
+        margin-top: 160px;
+        
+    }
+    
+    footer p {
+        margin-top: 7px;
+        }
+
+
+
+}
